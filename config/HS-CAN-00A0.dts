@@ -29,9 +29,9 @@
     "P9.30",	/* spi1_d1 */
     "P9.28",	/* spi1_cs0 */
      /* the hardware IP uses */
-     "spi0",
-     "spi1",
-     "dcan1";
+     "spi0",    /* CAN_0 */
+     "dcan1",   /* CAN_1 */
+     "spi1";    /* CAN_2 */
  
    fragment@0 {
      target = <&am33xx_pinmux>;
